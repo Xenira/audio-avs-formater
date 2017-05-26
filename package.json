@@ -1,0 +1,23 @@
+{
+  "name": "audio-avs-formater",
+  "version": "1.0.0",
+  "description": "Formats pcm stream to 16 bit LE 16khz single channel",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon",
+    "prepublish": "tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenira/audio-avs-formater.git"
+  },
+  "author": "Lasse Sprengel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenira/audio-avs-formater/issues"
+  },
+  "homepage": "https://github.com/Xenira/audio-avs-formater#readme",
+  "devDependencies": {
+    "tslint": "^5.3.2"
+  }
+}
